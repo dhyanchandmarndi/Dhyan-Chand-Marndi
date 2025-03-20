@@ -1,0 +1,12 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 768px;
+    font-size: 25px;
+}
+
+.profile-icon {
+    width: 60px;
+    border-radius: 50%;
+}

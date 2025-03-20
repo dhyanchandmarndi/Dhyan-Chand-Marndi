@@ -1,0 +1,108 @@
+/* ProjectSection.css */
+.project-section {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #333;
+    position: relative;
+  }
+  
+  .section-title:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: #6c63ff;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project-image-container {
+    height: 220px;
+    overflow: hidden;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+  
+  .project-card:hover .project-image {
+    transform: scale(1.05);
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .project-description {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .project-actions {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .project-button {
+    padding: 10px 24px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .project-button:hover {
+    background-color: #5a52d5;
+    transform: translateY(-2px);
+  }
+  
+  @media (max-width: 768px) {
+    .projects-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .project-image-container {
+      height: 200px;
+    }
+  }

@@ -1,0 +1,49 @@
+.about {
+    background-color: #f8f8f8;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 768px;
+}
+.about #about_heading {
+    font-size: 2.8rem;
+    padding: 0 0 40px 20px;
+}
+
+.about .about-content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.about .about-img{
+    width: 400px;
+    position: relative;
+}
+
+.about .about-text {
+    display: flex;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+.about .border-box {
+    position: absolute;
+    width: 280px;
+    height: 425px;
+    margin: 15px;
+    border: 7px solid #333;  /* Border thickness and color */
+    z-index: 1;
+    
+}
+
+.about .profile {
+    width: 280px;
+    object-fit: cover;  /* Makes image cover the area */
+    top: -15px;         /* Move image up (creates top overlap) */
+    left: -15px;        /* Move image left (creates left overlap) */
+    z-index: 2; 
+
+} 
