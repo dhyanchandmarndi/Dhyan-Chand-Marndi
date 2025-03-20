@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import profile from '../assets/profile.jpg'
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
                 <h1 id='about_heading'>About Me</h1>
                 <div className='about-img'>
                     <div className='border-box'></div>
-                    <img src='./src/assets/profile.jpg' className='profile' alt='profile photo'></img>
+                    <img src={profile} className='profile' alt='profile photo'></img>
                 </div>
             </div>
             <div className='container-right'>

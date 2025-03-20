@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import avatar from '../assets/avatar.jpg'
 
 const Home = () => {
   return (
@@ -7,7 +8,8 @@ const Home = () => {
       <div className='container'>
       <div className='container home-container'>      
       <div className='content-left'>
-        <img src='./src/assets/avatar.jpg' alt='profile image' className='profile-icon'></img>
+        <img src={avatar} alt='profile image' className='profile-icon' />
+
         <h1>Hello! I'm Dhyan Chand Marndi</h1>
       </div>
       <div className='content-right'>
