@@ -10,3 +10,26 @@
     width: 60px;
     border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+
+    #home {
+        padding-top: 160px;
+    }
+    .home-container {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 500px;
+        padding: 50px 0;
+        
+    }
+
+    .profile-icon {
+        width: 100px;
+    }
+
+    .content-right{
+        padding-bottom: 20px;
+        font-size: 0.8rem;
+    }
+}
