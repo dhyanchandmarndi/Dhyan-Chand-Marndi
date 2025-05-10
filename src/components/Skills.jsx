@@ -1,5 +1,5 @@
-import React from 'react';
-import './Skills.css';
+import React from "react";
+import "./Skills.css";
 
 const SkillsSection = () => {
   // Skills data organized by categories
@@ -9,7 +9,7 @@ const SkillsSection = () => {
       { name: "JavaScript", level: 85 },
       { name: "HTML5", level: 95 },
       { name: "CSS3", level: 90 },
-      { name: "TypeScript", level: 75 },
+      { name: "Tailwindcss", level: 75 },
     ],
     backend: [
       { name: "Node.js", level: 80 },
@@ -17,7 +17,7 @@ const SkillsSection = () => {
       { name: "MongoDB", level: 70 },
       { name: "SQL", level: 65 },
       { name: "RESTful APIs", level: 85 },
-    ]
+    ],
     // tools: [
     //   { name: "Git", level: 85 },
     //   { name: "Webpack", level: 70 },
@@ -42,8 +42,8 @@ const SkillsSection = () => {
           <p className="skill-percentage">{skill.level}%</p>
         </div>
         <div className="skill-bar">
-          <div 
-            className="skill-progress" 
+          <div
+            className="skill-progress"
             style={{ width: `${skill.level}%` }}
           ></div>
         </div>
@@ -56,7 +56,8 @@ const SkillsSection = () => {
       <div className="container">
         <h2 className="section-title">My Skills</h2>
         <p className="section-description">
-          Here are my technical skills and proficiency levels in various web development technologies.
+          Here are my technical skills and proficiency levels in various web
+          development technologies.
         </p>
 
         <div className="skills-container">
@@ -73,7 +74,7 @@ const SkillsSection = () => {
               {renderSkillBars(skillsData.backend)}
             </div>
           </div>
-{/* 
+          {/* 
           <div className="skills-category">
             <h3>Tools & Deployment</h3>
             <div className="skills-list">
