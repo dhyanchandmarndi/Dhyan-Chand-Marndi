@@ -7,7 +7,6 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 - 💼 **Projects** – Showcasing my best work with live demos and GitHub links.
 - 🛠 **Tech Stack** – The technologies I use for web and AI development.
 - 📩 **Contact Form** – Allows visitors to reach out via email.
-- 🌙 **Dark Mode** – Toggle between light and dark themes.
 - 📱 **Fully Responsive** – Optimized for mobile, tablet, and desktop.
 
 ## 🛠️ Tech Stack
