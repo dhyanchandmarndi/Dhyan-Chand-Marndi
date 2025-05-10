@@ -10,7 +10,6 @@ const SkillsSection = () => {
       { name: "HTML5", level: 95 },
       { name: "CSS3", level: 90 },
       { name: "TypeScript", level: 75 },
-      { name: "Redux", level: 80 },
     ],
     backend: [
       { name: "Node.js", level: 80 },
